@@ -1,0 +1,48 @@
+.user__info {
+    height: 600px;
+    .user__img {
+        margin-top: 100px;
+    }
+
+    .user__imag {
+        margin-top: 50px;
+    }
+
+    .user__h2 {
+        width: 100%;
+        color: #333D4B;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        font-family: "Fraunces";
+        margin-left: 30px;
+    }
+
+    .user__text {
+        width: 100%;
+        color: #333D4B;
+        font-family: "Barlow";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-left: 15px;
+    }
+
+
+    @media only screen and (max-width: 400px) {
+        background-image: url("../imges/mobiniy.png");
+        background-repeat: no-repeat;
+        height: 600px;
+    }
+
+    @media only screen and (max-width: 400px) {
+        background-image: url("../imges/mobiliy.png");
+        display: none;
+        background-repeat: no-repeat;
+        height: 600px;
+    }
+}
+
+
